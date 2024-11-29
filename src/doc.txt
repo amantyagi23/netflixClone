@@ -1,0 +1,177 @@
+
+
+
+Netflix clone
+
+-> documentation
+
+
+-> Frontend <- -> backend -> database
+
+based request and response 
+
+Frontend -> request -> backend 
+backend -> response -> Frontend
+
+UI -> lib MUI, BootStrap
+
+hooks
+
+APIs -> tmdb(website) server
+
+rest APIs -> get,post,put,delete
+
+async vs sync
+
+fetch()
+
+json 
+
+axios
+
+Netflix is a multipage website
+
+react is a single page application 
+
+react router dom
+
+test -> jest 
+
+react - hook - form 
+sign in , logins  
+
+errors -> trycatch 
+
+state management -> redux 
+
+
+
+
+
+
+
+UI part - >
+
+MUI 
+
+pages
+Home page,
+
+Movie Page,
+
+User Profile Page-> setting, updates
+
+
+Components ->
+
+Navbar -> 
+
+we cannot call async thing in sync components directly
+
+
+useEffect -> is a hook which is based on Component life cycle
+
+state
+render
+
+onMounting
+
+components -> components
+
+
+onReload 
+
+components 
+
+
+on internal change or external change
+
+
+Error Handling
+
+
+something is not working is a errors
+
+
+linting error that genrate by developer itself
++,- 
+
+
+based on request or response 
+
+status-> 
+
+correct -> 200
+created -> 201
+notfound -> 404
+internal server error -> 500
+user is not login -> 403
+
+
+
+trycatch
+
+try{
+    //code 
+}
+catch(){
+
+}
+
+new Error()
+
+
+throw 
+
+
+
+fetch vs axios
+
+axios is lib.. used to fetch data 
+based on restApi
+get,post,put,delete
+
+
+fetch normaly used for only get request 
+harder method 
+fetch('',{
+    method:post
+})
+we have to wait for json every
+waiting 2 times 
+
+axios is like object already created all methods
+single time fetch
+axios.post
+
+// older -> data 
+/// create -> data 
+
+// deps -> refetch
+
+
+we need data of movies 
+
+in Frontend we always request a APIs
+
+
+for movies -> TMDB
+
+we display movie banner
+
+but we need to show movies details 
+
+but react is a single page application
+
+
+
+React is spa
+
+we create ilusions
+
+like we maintain components according to need 
+
+
+
+if
+else
